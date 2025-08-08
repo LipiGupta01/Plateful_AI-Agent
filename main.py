@@ -9,6 +9,13 @@ import time
 import os
 import re
 import sys
+from dotenv import load_dotenv
+
+
+load_dotenv()
+api_key = os.getenv("AIzaSyCkEm21XxOGrsTETGgdXHrjoHcVqwyAzfU")
+sheet_id = os.getenv("11X7sJLhd3RhZTmQVSBVOUMUjhHxtkskSo2g3jV3YubM")
+
 
 
 # --- PACKAGE IMPORTS AND CHECKS ---
